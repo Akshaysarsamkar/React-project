@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #eeee;
+    padding: 30px;
+}
+
+#mainContainer{
+    background-color: white;
+    width: 500px;
+    border-radius: 12px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.formContainer h1{
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    margin-bottom: 25px;
+}
+
+.formContainer div{
+    margin-bottom: 20px;
+}
+
+.formContainer label{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.formContainer input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 7px;
+    border-radius: 7px;
+}
+
+.formContainer button{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    border:none;
+    cursor: pointer;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.editbtn{
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 10px;
+      border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.deleteBtn{
+     background-color: green;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 10px;
+      border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.clearAllbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.clearAllbtn button{
+    background-color: purple;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 10px;
+      border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+td{
+    text-align: center;
+    padding: 10px 1rem;
+  
+}
+
